@@ -1,9 +1,9 @@
 name: Exemplo de Fluxo de Trabalho
 
 on:
-  workflow_dispatch:
+   workflow_dispatch:
 
-  jobs:
+jobs:
     acao_inicial_job:
       runs-on: macos-latest
       steps:
